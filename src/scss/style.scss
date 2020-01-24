@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap');
 
 html {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.4;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
     font-size: 2.8rem;
     text-transform: uppercase;
     font-weight: lighter;
-    margin-bottom: 0.5rem;
+    margin: 2rem 0 0.5rem;
     
 }
 
@@ -54,11 +54,11 @@ main {
 }
 
 .header {
-    background-color: lightgray;
+    background-color: #c9c9ca;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
 
     &__logo {
         width: 8rem;
@@ -67,19 +67,23 @@ main {
     }
 
     &__nav{
-        background-color: green;
         display: flex;        
         justify-content: space-around;
         // padding: 1rem;
         width: 100%;
         a {
             text-decoration: none;
-            color: silver;
-           
+            color: #848485;
+            font-weight: initial;
         }
 
         a:active  {
             color: black;
+        }
+
+        a.active {
+            color: black;
+            
         }
     }
 
@@ -110,7 +114,7 @@ main {
 .footer {
     padding: 0 1.5rem;
     height: 18rem;
-    background-color: gray;
+    background-color: #343a40;
     color: white;
     display: flex;
     flex-direction: column;
@@ -135,6 +139,6 @@ main {
     }
 
     &__link {
-        color: lightskyblue;
+        color: #0393f2;
     }
 }
