@@ -30,6 +30,11 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     font-weight: lighter;
+
+    @media (min-width:321px) {
+        margin-bottom: 1rem;
+    }
+
 }
 
 h3 {
@@ -49,8 +54,15 @@ main {
         margin-bottom: -2rem;
         z-index: 1;
         position: relative;
+
+        @media (min-width: 321px) {
+            margin-bottom: -4rem;
+        }
     }
 
+    @media (min-width: 321px) {
+        padding: 1rem 10rem;
+    }    
 }
 
 .header {
@@ -85,6 +97,20 @@ main {
             color: black;
             
         }
+
+        @media (min-width: 321px) {
+            width: 25%;
+            justify-content: space-between;
+        }
+
+
+    }
+
+    @media (min-width: 321px) {
+        padding: 1rem 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        
     }
 
 }
@@ -109,6 +135,11 @@ main {
         font-style: normal;
     }
 
+    @media (min-width: 321px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
 .footer {
@@ -126,7 +157,16 @@ main {
         display: flex;
         width: 100%;
         justify-content: space-between;
+
+        @media (min-width: 321px) {
+            justify-content: space-between;
+            width: 30%;
+
+        }
     }
+
+
+
 
     &__hashtag {
         margin-bottom: 1rem;
@@ -141,4 +181,8 @@ main {
     &__link {
         color: #0393f2;
     }
+
+    @media (min-width: 321px) {
+        padding: 1rem 10rem;
+    }    
 }
