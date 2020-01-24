@@ -1,0 +1,36 @@
+.coffee {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    > h3 {
+        font-size: 1.4rem;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        p {
+            line-height: 2;
+        }
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__prices {
+        display: flex;
+        flex-direction: column;
+    }
+}
