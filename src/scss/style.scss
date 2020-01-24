@@ -14,7 +14,6 @@ html {
 
 body {
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -44,15 +43,18 @@ h3 {
 main {
     // margin: 3rem auto -5rem;
     padding: 0 1.5rem;
-    img {
+    > img {
         display: block;
         width: 100%;
+        margin-bottom: -2rem;
+        z-index: 1;
+        position: relative;
     }
 
 }
 
 .header {
-    background-color: grey;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,17 +109,32 @@ main {
 
 .footer {
     padding: 0 1.5rem;
+    height: 18rem;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__navigation {
-        background-color: grey;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 
     &__hashtag {
-        background-color: honeydew;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
     &__social {
-        background-color: khaki;
 
+    }
+
+    &__link {
+        color: lightskyblue;
     }
 }
