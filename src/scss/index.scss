@@ -30,7 +30,7 @@ h2 {
     margin-bottom: 0.5rem;
     font-weight: lighter;
 
-    @media (min-width:321px) {
+    @media (min-width: 1200px) {
         margin-bottom: 1rem;
     }
 
@@ -54,12 +54,24 @@ main {
         z-index: 1;
         position: relative;
 
-        @media (min-width: 321px) {
+        @media (min-width: 1200px) {
             margin-bottom: -4rem;
         }
     }
 
-    @media (min-width: 321px) {
+    @media (min-width: 600px) {
+        padding: 1rem 2rem;
+    }   
+
+    @media (min-width: 800px) {
+        padding: 1rem 4rem;
+    } 
+    
+    @media (min-width: 1000px) {
+        padding: 1rem 8rem;
+    } 
+
+    @media (min-width: 1200px) {
         padding: 1rem 10rem;
     }    
 }
@@ -97,18 +109,28 @@ main {
             
         }
 
-        @media (min-width: 321px) {
-            width: 25%;
+        @media (min-width: 600px ) {
+            width: 16.5em;
             justify-content: space-between;
         }
-
-
     }
 
-    @media (min-width: 321px) {
-        padding: 1rem 10rem;
+    @media (min-width: 600px) {
         flex-direction: row;
         justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    @media (min-width: 800px) {
+        padding: 1rem 4rem;
+    }   
+
+    @media (min-width: 1000px) {
+        padding: 1rem 8rem;
+    } 
+
+    @media (min-width: 1200px) {
+        padding: 1rem 10rem;
         
     }
 
@@ -134,7 +156,7 @@ main {
         font-style: normal;
     }
 
-    @media (min-width: 321px) {
+    @media (min-width: 1200px) {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -157,14 +179,11 @@ main {
         width: 100%;
         justify-content: space-between;
 
-        @media (min-width: 321px) {
+        @media (min-width: 600px) {
             justify-content: space-between;
-            width: 30%;
-
+            width: 16.5em;
         }
     }
-
-
 
 
     &__hashtag {
@@ -181,7 +200,19 @@ main {
         color: #0393f2;
     }
 
-    @media (min-width: 321px) {
+    @media (min-width: 600px) {
+        padding: 1rem 2rem;
+    }   
+
+    @media (min-width: 800px) {
+        padding: 1rem 4rem;
+    }  
+
+    @media (min-width: 1000px) {
+        padding: 1rem 8rem;
+    } 
+
+    @media (min-width: 1200px) {
         padding: 1rem 10rem;
     }    
 }
