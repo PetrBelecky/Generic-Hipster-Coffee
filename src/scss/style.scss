@@ -8,3 +8,33 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.header {
+    background-color: grey;
+
+    &__logo {
+
+    }
+
+    &__nav{
+        background-color: green;
+    }
+
+}
+
+
+.footer {
+
+    &__navigation {
+        background-color: grey;
+    }
+
+    &__hashtag {
+        background-color: honeydew;
+    }
+
+    &__social {
+        background-color: khaki;
+
+    }
+}
